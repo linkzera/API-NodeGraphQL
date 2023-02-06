@@ -14,7 +14,7 @@ async function bootstrap() {
   const server = new ApolloServer({ schema })
   const { url } = await server.listen()
 
-  console.log(`🚀 Server ready at ${url}`)
+  console.log(`🚀 Server ready at the ${url}`)
 }
 
 bootstrap()
